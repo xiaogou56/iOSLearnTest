@@ -15,6 +15,8 @@
 		525022591B99DEE100FB41AF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 525022571B99DEE100FB41AF /* LaunchScreen.storyboard */; };
 		525022641B99DEE100FB41AF /* iOSLearnTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 525022631B99DEE100FB41AF /* iOSLearnTestTests.m */; };
 		5250226F1B99DEE100FB41AF /* iOSLearnTestUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250226E1B99DEE100FB41AF /* iOSLearnTestUITests.m */; };
+		5250227E1B99E1D700FB41AF /* CA.m in Sources */ = {isa = PBXBuildFile; fileRef = 5250227D1B99E1D700FB41AF /* CA.m */; };
+		525223E61B99E44E00F13D7C /* CA+propertyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 525223E51B99E44E00F13D7C /* CA+propertyTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		5250226A1B99DEE100FB41AF /* iOSLearnTestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSLearnTestUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5250226E1B99DEE100FB41AF /* iOSLearnTestUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSLearnTestUITests.m; sourceTree = "<group>"; };
 		525022701B99DEE100FB41AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5250227C1B99E1D700FB41AF /* CA.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CA.h; sourceTree = "<group>"; };
+		5250227D1B99E1D700FB41AF /* CA.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CA.m; sourceTree = "<group>"; };
+		525223E41B99E44E00F13D7C /* CA+propertyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "CA+propertyTest.h"; sourceTree = "<group>"; };
+		525223E51B99E44E00F13D7C /* CA+propertyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "CA+propertyTest.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -81,6 +87,8 @@
 		5250223D1B99DEE000FB41AF = {
 			isa = PBXGroup;
 			children = (
+				525223E41B99E44E00F13D7C /* CA+propertyTest.h */,
+				525223E51B99E44E00F13D7C /* CA+propertyTest.m */,
 				525022481B99DEE000FB41AF /* iOSLearnTest */,
 				525022621B99DEE100FB41AF /* iOSLearnTestTests */,
 				5250226D1B99DEE100FB41AF /* iOSLearnTestUITests */,
@@ -105,6 +113,8 @@
 				5250224D1B99DEE100FB41AF /* AppDelegate.m */,
 				5250224F1B99DEE100FB41AF /* ViewController.h */,
 				525022501B99DEE100FB41AF /* ViewController.m */,
+				5250227C1B99E1D700FB41AF /* CA.h */,
+				5250227D1B99E1D700FB41AF /* CA.m */,
 				525022521B99DEE100FB41AF /* Main.storyboard */,
 				525022551B99DEE100FB41AF /* Assets.xcassets */,
 				525022571B99DEE100FB41AF /* LaunchScreen.storyboard */,
@@ -273,6 +283,8 @@
 				525022511B99DEE100FB41AF /* ViewController.m in Sources */,
 				5250224E1B99DEE100FB41AF /* AppDelegate.m in Sources */,
 				5250224B1B99DEE000FB41AF /* main.m in Sources */,
+				525223E61B99E44E00F13D7C /* CA+propertyTest.m in Sources */,
+				5250227E1B99E1D700FB41AF /* CA.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -496,6 +508,7 @@
 				525022751B99DEE100FB41AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525022761B99DEE100FB41AF /* Build configuration list for PBXNativeTarget "iOSLearnTestTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +517,7 @@
 				525022781B99DEE100FB41AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		525022791B99DEE100FB41AF /* Build configuration list for PBXNativeTarget "iOSLearnTestUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +526,7 @@
 				5250227B1B99DEE100FB41AF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
